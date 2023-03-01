@@ -1,0 +1,179 @@
+Body{
+    Margin: 0;
+    Font-family: poppins, Arial, Helvetica, sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Color: #666666;
+    Background: #eaeff4;
+    }
+    
+    .wrapper{
+    Margin: 0 auto;
+    Width: 100%;
+    Max-width: 1140px;
+    Min-height: 100vh;
+    Display: flex;
+    Align-items: center;
+    Justify-content: center;
+    Flex-direction: column;
+    }
+    
+    .container{
+    Position: relative;
+    Width: 100%;
+    Max-width: 600px;
+    Height: auto;
+    Display: flex;
+    Background: #ffffff;
+    Box-shadow: 0 0 5px #999999;
+    }
+    
+    
+    
+    .login .col-left,
+    .login .col-right{
+    Padding: 30px;
+    Display: flex;
+    }
+    
+    
+    .login .col-left{
+        Width: 60%;
+        Clip-path: polygon(0 0, 0% 100%, 100% 0 );
+        Background: #9ae0e2;
+        }
+    
+        .login .col-right{
+        Padding: 60px 30px;
+        Width: 50%;
+        Margin-left: -10%;
+        }
+        
+        
+        @media(max-width: 575px){
+            .login .container{
+            Flex-direction: column;
+            Box-shadow: none;
+            }
+            .login .col-left,
+            .login .col-right{
+            Width: 100%;
+            Margin: 0;
+            Clip-path: none;
+            }
+            .login .col-right{
+            Padding: 30px;
+            }
+            
+            }
+    
+            
+            .login .login-text{
+            Position: relative;
+            Width: 100%;
+            Color: #ffffff;
+            }
+    
+            .login .login-text h2{
+            Margin: 0 0 15px 0;
+            Font-size: 30px;
+            Font-weight: 700;
+            }
+    
+            .login .login-text p{
+            Margin: 0 0 20px 0;
+            Font-size: 16px;
+            Font-weight: 500;
+            Line-height: 22px;
+            }
+            
+            .login .login-text .btn{
+            Display: inline-block;
+            Font-family: poppins;
+            Padding: 7px 20px;
+            Font-size: 16px;
+            Letter-spacing: 1px;
+            Text-decoration: none;
+            Border-radius: 30px;
+            Color: #ffffff;
+            Outline: none;
+            Border: 1px solid #ffffff;
+            Box-shadow: inset 0 0 0 0 #ffffff;
+            Transition: .3s;
+            }
+            
+            .login .login-text .btn:hover{
+            Color: #8ccfe4;
+            Box-shadow: inset 150px 0 0 0 #ffffff;
+            }
+            
+            .login .login-form{
+            Position: relative;
+            Width: 100%;
+            }
+            .login .login-form h2{
+            Margin: 0 0 15px 0;
+            Font-size: 22px;
+            Font-weight: 700;
+            }
+            .login .login-form p{
+            Margin: 0 0 10px 0;
+            Text-align: left;
+            Color: #666666;
+            Font-size: 15px;
+            }
+            .login .login-form p:last-child{
+            Margin: 0;
+            Padding-top: 3px;
+            }
+            .login .login-form p a{
+            Color: #2aa15f;
+            Font-size: 14px;
+            Text-decoration: none;
+            }
+            .login .login-form label {
+            Display: block;
+            Width: 100%;
+            Margin-bottom: 2px;
+            Letter-spacing: .5px;
+            }
+            .login .login-form p:last-child label{
+            Width: 60%;
+            Float: left;
+            }
+            .login .login-form label span{
+            Color: #ff574e;
+            Padding-left: 2px;
+            }
+            .login .login-form input{
+            Display: block;
+            Width: 100%;
+            Height: 35px;
+            Padding: 0 10px;
+            Outline: none;
+            Border: 1px solid #cccccc;
+            Border-radius: 30px;
+            }
+            .login .login-form input:focus{
+            Border-color: #ff574e;
+            }
+            .login .login-form button,
+            .login .login-form input[type=submit] {
+            Display: inline-block;
+            Width: 100%;
+            Margin-top: 5px;
+            Color: #2aa15f;
+            Font-size: 16px;
+            Letter-spacing: 1px;
+            Cursor: pointer;
+            Background: transparent;
+            Border: 1px solid #2aa15f;
+            Border-radius: 30px;
+            Box-shadow: inset 0 0 0 0 #2aa15f;
+            Transition: .3s;
+            }
+            .login .login-form button:hover,
+            .login .login-form input[type=submit]:hover{
+            Color: #ffffff;
+            Box-shadow: inset 250px 0 0 0 #2aa15f;
+            }
